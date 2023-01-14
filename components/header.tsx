@@ -7,14 +7,14 @@ export function Header() {
             <header id="header" className="fixed-top">
                 <div className="container d-flex align-items-center justify-content-between">
                     <h1 className="logo">
-                        <a href="index.html">Konnectify</a>
+                        <a href="#" className="nav-link">Konnectify</a>
                     </h1>
                     {/* Uncomment below if you prefer to use an image logo */}
                     {/* <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
                     <nav id="navbar" className="navbar">
                         <ul>
                             <li>
-                                <a className="nav-link scrollto active" href="#hero">
+                                <a className="nav-link scrollto" href="#hero">
                                     Home
                                 </a>
                             </li>
@@ -31,16 +31,6 @@ export function Header() {
                             <li>
                                 <a className="nav-link scrollto " href="#portfolio">
                                     Portfolio
-                                </a>
-                            </li>
-                            <li>
-                                <a className="nav-link scrollto" href="#team">
-                                    Team
-                                </a>
-                            </li>
-                            <li>
-                                <a className="nav-link scrollto" href="#pricing">
-                                    Pricing
                                 </a>
                             </li>
                             <li>

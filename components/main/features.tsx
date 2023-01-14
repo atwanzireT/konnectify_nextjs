@@ -12,12 +12,9 @@ export function Features() {
             <section id="features" className="features" data-aos="fade-up">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Features</h2>
+                        <h2>What We Do.</h2>
                         <p>
-                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-                            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-                            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                            fugiat sit in iste officiis commodi quidem hic quas.
+                            Konnectify Uganda consists of individuals that have high skills, knowledge and experience in the fields of marketing and advertising.
                         </p>
                     </div>
                     <div className="row content">
@@ -30,25 +27,52 @@ export function Features() {
                             data-aos-delay={100}
                         >
                             <h3>
-                                Voluptatem dignissimos provident quasi corporis voluptates sit
-                                assumenda.
+                                Traditional marketing
                             </h3>
                             <p className="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Traditional marketing is any form of marketing that uses offline media to
+                                reach an audience. Basic examples of traditional marketing include things
+                                like newspaper ads and other print ads, but there are also billboards, mail
+                                advertisements, and TV and radio advertisements.
                             </p>
                             <ul>
                                 <li>
-                                    <i className="bi bi-check" /> Ullamco laboris nisi ut aliquip ex
-                                    ea commodo consequat.
+                                    <i className="bi bi-check" /> Designing the overall advertising/public relations strategy
                                 </li>
                                 <li>
-                                    <i className="bi bi-check" /> Duis aute irure dolor in
-                                    reprehenderit in voluptate velit.
+                                    <i className="bi bi-check" />
+                                    Personalization and targeting
                                 </li>
                                 <li>
-                                    <i className="bi bi-check" /> Ullam est qui quos consequatur eos
-                                    accusamus.
+                                    <i className="bi bi-check" />
+                                    Development and preparation of strategic marketing plans and programs.
+                                </li>
+                                <li>
+                                    <i className="bi bi-check" />
+                                    Key market segment identification plans and programs.
+                                </li>
+                                <li>
+                                    <i className="bi bi-check" />
+                                    Industry trend analysis.
+                                </li>
+                                <li>
+                                    <i className="bi bi-check" />
+                                    Testing the plan.
+                                </li>
+                                <li>
+                                    <i className="bi bi-check" />
+                                    Execution of marketing implementation plans and programs.
+                                </li>
+                                <li>
+                                    <i className="bi bi-check" />
+                                    Tracking the campaigns progress
+                                </li>
+                                <li>
+                                    <i className="bi bi-check" />
+                                    Instant measurability for ROI analysis
+                                </li>                                <li>
+                                    <i className="bi bi-check" />
+                                    Post campaign analysis
                                 </li>
                             </ul>
                         </div>
@@ -58,18 +82,21 @@ export function Features() {
                             <Image src={feature2} className="img-fluid" alt="" />
                         </div>
                         <div className="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-                            <h3>Corporis temporibus maiores provident</h3>
+                            <h3>Print advertising </h3>
                             <p className="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Print advertising is a form of marketing that uses physically printed media to reach customers on a
+                                broad scale. Ads are printed in hard copy across
+                                different types of publications such as newspapers, magazines, brochures, or direct mail.
                             </p>
-                            <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in culpa qui officia deserunt mollit anim id est
-                                laborum
-                            </p>
+                            <ul>
+                                <li>
+                                    <i className="bi bi-check" />
+                                    Business card, Logo, Stationery, Label, Signage, Billboard, Cars wrap, Banner ad, Flyer, Post card,
+                                    Brochure, Delivery note, Receipt book, Poster, Catalogue, Envelope, Menu , Newspaper ad,
+                                    Sticker, Phone case covers, Umbrella, Pen, Caps, T-shirt, Card, Cup and mug,
+                                    Packaging, Bag and tote, Digitizing, Embroidery designing and printing
+                                </li>``
+                            </ul>
                         </div>
                     </div>
                     <div className="row content">
@@ -78,27 +105,69 @@ export function Features() {
                         </div>
                         <div className="col-md-7 pt-5" data-aos="fade-left">
                             <h3>
-                                Sunt consequatur ad ut est nulla consectetur reiciendis animi
-                                voluptas
+                                Digital marketing
                             </h3>
                             <p>
-                                Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia
-                                minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor
-                                doloremque.
+                                Digital marketing is the component of marketing that uses the Internet and
+                                online based digital technologies such as desktop computers, mobile phones
+                                and other digital media and platforms to promote products and services
                             </p>
                             <ul>
-                                <li>
-                                    <i className="bi bi-check" /> Ullamco laboris nisi ut aliquip ex
-                                    ea commodo consequat.
-                                </li>
-                                <li>
-                                    <i className="bi bi-check" /> Duis aute irure dolor in
-                                    reprehenderit in voluptate velit.
-                                </li>
-                                <li>
-                                    <i className="bi bi-check" /> Facilis ut et voluptatem aperiam.
-                                    Autem soluta ad fugiat.
-                                </li>
+                                <div className="row">
+                                    <div className="col">
+                                        <li>
+                                            <i className="bi bi-check" />
+                                            Website maintenance and development
+
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-check" />
+                                            Word press support
+
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-check" />
+                                            Hosting
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-check" />
+                                            Ad design
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-check" />
+                                            Search engine optimization (SEO)
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-check" />
+                                            Ad management
+                                        </li>
+                                    </div>
+                                    <div className="col">
+                                        <li>
+                                            <i className="bi bi-check" />
+                                            Copywriting
+
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-check" />
+                                            Keyword research
+
+
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-check" />
+                                            Email marketing
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-check" />
+                                            Analytics
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-check" />
+                                            Social media marketing
+                                        </li>
+                                    </div>
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -108,20 +177,32 @@ export function Features() {
                         </div>
                         <div className="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
                             <h3>
-                                Quas et necessitatibus eaque impedit ipsum animi consequatur
-                                incidunt in
+                                Media Advertising
                             </h3>
                             <p className="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Social media marketing is the use of social media platforms and websites to
+                                promote a product or service. Although the terms e-marketing and digital marketing
+                                are still dominant in academia, social media marketing is becoming more popular
+                                for both practitioners and researchers.
                             </p>
-                            <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in culpa qui officia deserunt mollit anim id est
-                                laborum
-                            </p>
+                            <ul>
+                                <li>
+                                    <i className="bi bi-check" />
+                                    Ad campaigns
+                                </li>
+                                <li>
+                                    <i className="bi bi-check" />
+                                    Strategic planning
+                                </li>
+                                <li>
+                                    <i className="bi bi-check" />
+                                    TV ads
+                                </li>
+                                <li>
+                                    <i className="bi bi-check" />
+                                    Radio commercials
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

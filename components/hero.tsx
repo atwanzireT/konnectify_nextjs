@@ -11,9 +11,9 @@ export function Hero() {
                     className="container d-flex flex-column align-items-center justify-content-center"
                     data-aos="fade-up"
                 >
-                    <h1>Create A Better Market Konnect with Konnectify .</h1>
-                    <h2>We are team of talented designers making websites with Bootstrap</h2>
-                    <a href="#about" className="btn-get-started scrollto">
+                    <h1>We are Konnectify Uganda.</h1>
+                    <h2>Konnectify Uganda consists of individuals that have high skills, knowledge and experience in the fields of marketing and advertising. </h2>
+                    <a href="#about" className="btn-danger btn btn-lg mt-3 scrollto">
                         Get Started
                     </a>
                     <Image

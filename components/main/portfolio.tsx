@@ -19,11 +19,8 @@ export function Portfolio() {
                         <div className="col-lg-12 d-flex justify-content-center">
                             <ul id="portfolio-flters">
                                 <li data-filter="*" className="filter-active">
-                                    All
+                                    Gallery
                                 </li>
-                                <li data-filter=".filter-app">App</li>
-                                <li data-filter=".filter-card">Card</li>
-                                <li data-filter=".filter-web">Web</li>
                             </ul>
                         </div>
                     </div>

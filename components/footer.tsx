@@ -9,7 +9,7 @@ export function Footer() {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 col-md-6 footer-contact">
-                                <h3>Bikin</h3>
+                                <h3>Konnectify Uganda</h3>
                                 <p>
                                     A108 Adam Street <br />
                                     New York, NY 535022
@@ -75,7 +75,7 @@ export function Footer() {
                                 </p>
                                 <form action="" method="post">
                                     <input type="email" name="email" />
-                                    <input type="submit" defaultValue="Subscribe" />
+                                    <input type="submit"className="btn btn-danger" defaultValue="Subscribe" />
                                 </form>
                             </div>
                         </div>

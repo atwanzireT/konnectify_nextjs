@@ -12,14 +12,13 @@ export function About() {
                             data-aos="fade-right"
                         >
                             <div className="content">
-                                <h3>Voluptatem dignissimos provident quasi</h3>
+                                <h3>About Us</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-                                    aute irure dolor in reprehenderit
+                                    Konnectify Uganda consists of individuals that have high skills, knowledge and experience
+                                    in the fields of marketing and advertising.
                                 </p>
                                 <a href="#" className="about-btn">
-                                    About us <i className="bx bx-chevron-right" />
+                                    About us <i className="bi bi-card-text" />
                                 </a>
                             </div>
                         </div>
@@ -34,11 +33,13 @@ export function About() {
                                         data-aos="fade-up"
                                         data-aos-delay={100}
                                     >
-                                        <i className="bx bx-receipt" />
-                                        <h4>Corporis voluptates sit</h4>
+                                        <i className="bi bi-receipt" />
+                                        <h4>Mission</h4>
                                         <p>
-                                            Consequuntur sunt aut quasi enim aliquam quae harum pariatur
-                                            laboris nisi ut aliquip
+                                            Working directly with customers to assist them in establishing and achieving
+                                            their marketing and advertising goals is our main priority. We pledge to communicate
+                                            their ideas in a way that is cost-effective, strategic, and creative. We also give
+                                            our full assistance
                                         </p>
                                     </div>
                                     <div
@@ -46,36 +47,23 @@ export function About() {
                                         data-aos="fade-up"
                                         data-aos-delay={200}
                                     >
-                                        <i className="bx bx-cube-alt" />
-                                        <h4>Ullamco laboris nisi</h4>
-                                        <p>
-                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                                            qui officia deserunt
-                                        </p>
-                                    </div>
-                                    <div
-                                        className="col-md-6 icon-box"
-                                        data-aos="fade-up"
-                                        data-aos-delay={300}
-                                    >
-                                        <i className="bx bx-images" />
-                                        <h4>Labore consequatur</h4>
-                                        <p>
-                                            Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
-                                            maiores omnis facere
-                                        </p>
-                                    </div>
-                                    <div
-                                        className="col-md-6 icon-box"
-                                        data-aos="fade-up"
-                                        data-aos-delay={400}
-                                    >
-                                        <i className="bx bx-shield" />
-                                        <h4>Beatae veritatis</h4>
-                                        <p>
-                                            Expedita veritatis consequuntur nihil tempore laudantium vitae
-                                            denat pacta
-                                        </p>
+                                        <i className="bi bi-pencil-square" />
+                                        <h4>Why Konnectify</h4>
+                                        <ul>
+                                            <li>
+                                                Possess the technical expertise to keep our clients' learning curves and
+                                                costs to a minimum
+                                            </li>
+                                            <li>
+                                                Join the management team of our client's company.
+                                            </li>
+                                            <li>
+                                                Ensure that each client's marketing and advertising package launches on time.
+                                            </li>
+                                            <li>
+                                                Provide fresh, creative ideas for our clients that lead to high-caliber, economical outcomes.
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

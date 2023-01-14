@@ -9,83 +9,84 @@ export function Service() {
                     <div className="section-title">
                         <h2>Services</h2>
                         <p>
-                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-                            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-                            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                            fugiat sit in iste officiis commodi quidem hic quas.
+                            A marketing and advertising strategy needs to be successful. The plan is
+                            a waste of time if it does not aid management in increasing sales, lowering
+                            marketing expenses, gaining market share, or in any other way "winning".
                         </p>
                     </div>
-                    <div className="row">
-                        <div
-                            className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-                            data-aos="fade-up"
-                            data-aos-delay={100}
-                        >
-                            <div className="icon-box">
-                                <div className="icon">
-                                    <i className="bx bxl-dribbble" />
+                    <div className="m-auto">
+                        <div className="row">
+                            <div
+                                className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+                                data-aos="fade-up"
+                                data-aos-delay={200}
+                            >
+                                <div className="icon-box">
+                                    <div className="icon">
+                                    <i className="bi bi-bookmark-check-fill"></i>
+                                    </div>
+                                    <h4 className="title mt-5">
+                                        <h4 className="text-danger">Konnectify Ug</h4>
+                                    </h4>
+                                    {/* <p className="description">
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore
+                                    </p> */}
                                 </div>
-                                <h4 className="title">
-                                    <a href="">Lorem Ipsum</a>
-                                </h4>
-                                <p className="description">
-                                    Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                    excepturi
-                                </p>
                             </div>
-                        </div>
-                        <div
-                            className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-                            data-aos="fade-up"
-                            data-aos-delay={200}
-                        >
-                            <div className="icon-box">
-                                <div className="icon">
-                                    <i className="bx bx-file" />
+                            <div
+                                className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+                                data-aos="fade-up"
+                                data-aos-delay={100}
+                            >
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-tv"></i>
+                                    </div>
+                                    <h4 className="title mt-5">
+                                        <a className="nav-link" href="">Marketing</a>
+                                    </h4>
+                                    {/* <p className="description">
+                                        Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                                        excepturi
+                                    </p> */}
                                 </div>
-                                <h4 className="title">
-                                    <a href="">Sed ut perspiciatis</a>
-                                </h4>
-                                <p className="description">
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum dolore
-                                </p>
                             </div>
-                        </div>
-                        <div
-                            className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-                            data-aos="fade-up"
-                            data-aos-delay={300}
-                        >
-                            <div className="icon-box">
-                                <div className="icon">
-                                    <i className="bx bx-tachometer" />
+                            <div
+                                className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+                                data-aos="fade-up"
+                                data-aos-delay={200}
+                            >
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-broadcast"></i>
+                                    </div>
+                                    <h4 className="title mt-5">
+                                        <a className="nav-link" href="">Advertising</a>
+                                    </h4>
+                                    {/* <p className="description">
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore
+                                    </p> */}
                                 </div>
-                                <h4 className="title">
-                                    <a href="">Magni Dolores</a>
-                                </h4>
-                                <p className="description">
-                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia
-                                </p>
                             </div>
-                        </div>
-                        <div
-                            className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-                            data-aos="fade-up"
-                            data-aos-delay={400}
-                        >
-                            <div className="icon-box">
-                                <div className="icon">
-                                    <i className="bx bx-layer" />
+                            <div
+                                className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+                                data-aos="fade-up"
+                                data-aos-delay={400}
+                            >
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-arrow-right-circle" />
+                                    </div>
+                                    <h4 className="title mt-5">
+                                        <a className="nav-link" href="">More</a>
+                                    </h4>
+                                    {/* <p className="description">
+                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                        blanditiis
+                                    </p> */}
                                 </div>
-                                <h4 className="title">
-                                    <a href="">Nemo Enim</a>
-                                </h4>
-                                <p className="description">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                    blanditiis
-                                </p>
                             </div>
                         </div>
                     </div>
