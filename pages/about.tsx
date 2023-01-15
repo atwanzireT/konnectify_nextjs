@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "../components/header";
+import { Header_About } from "../components/header";
 import { Footer } from "../components/footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { About_Details } from "../components/main/about_details";
@@ -21,7 +21,7 @@ export default function About() {
                     </div>
                 </section>
                 {/* End Breadcrumbs */}
-                <Header />
+                <Header_About />
                 <About_Details/>
                 <Footer />
             </main>
