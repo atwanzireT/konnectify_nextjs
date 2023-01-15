@@ -3,7 +3,6 @@ import { Header } from '../components/header';
 import { Hero } from '../components/hero';
 import { Main } from '../components/main';
 import { Footer } from '../components/footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from 'next/head'
 import Script from 'next/script';
 
