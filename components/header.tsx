@@ -6,9 +6,9 @@ export function Header() {
             {/* ======= Header ======= */}
             <header id="header" className="fixed-top">
                 <div className="container d-flex align-items-center justify-content-between">
-                    <h1 className="logo">
-                        <a href="#" className="nav-link">Konnectify</a>
-                    </h1>
+                    <h5 className="logo">
+                        <a href="#" className="nav-link">Konnectify Uganda</a>
+                    </h5>
                     {/* Uncomment below if you prefer to use an image logo */}
                     {/* <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
                     <nav id="navbar" className="navbar">
@@ -60,9 +60,9 @@ export function Header_About() {
             {/* ======= Header ======= */}
             <header id="header" className="fixed-top">
                 <div className="container d-flex align-items-center justify-content-between">
-                    <h1 className="logo">
-                        <a href="/" className="nav-link">Konnectify</a>
-                    </h1>
+                    <h5 className="logo">
+                        <a href="/" className="nav-link">Konnectify Uganda</a>
+                    </h5>
                     {/* Uncomment below if you prefer to use an image logo */}
                     {/* <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
                     <nav id="navbar" className="navbar">

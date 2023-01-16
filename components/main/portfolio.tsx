@@ -1,4 +1,15 @@
 import React from "react";
+import Image from "next/image";
+import portfolio1 from "../img/portfolio/portfolio-1.png"
+import portfolio2 from "../img/portfolio/portfolio-2.png"
+import portfolio3 from "../img/portfolio/portfolio-3.png"
+import portfolio4 from "../img/portfolio/portfolio-4.jpg"
+import portfolio5 from "../img/portfolio/portfolio-5.jpg"
+import portfolio6 from "../img/portfolio/portfolio-6.png"
+import portfolio7 from "../img/portfolio/portfolio-7.png"
+import portfolio8 from "../img/portfolio/portfolio-8.jpg"
+import portfolio9 from "../img/portfolio/portfolio-9.png"
+
 
 export function Portfolio() {
     return (
@@ -27,8 +38,8 @@ export function Portfolio() {
                     <div className="row portfolio-container">
                         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div className="portfolio-wrap">
-                                <img
-                                    src="assets/img/portfolio/portfolio-1.jpg"
+                                <Image
+                                    src={portfolio1}
                                     className="img-fluid"
                                     alt=""
                                 />
@@ -53,8 +64,8 @@ export function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div className="portfolio-wrap">
-                                <img
-                                    src="assets/img/portfolio/portfolio-2.jpg"
+                                <Image
+                                    src={portfolio2}
                                     className="img-fluid"
                                     alt=""
                                 />
@@ -79,8 +90,8 @@ export function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div className="portfolio-wrap">
-                                <img
-                                    src="assets/img/portfolio/portfolio-3.jpg"
+                                <Image
+                                    src={portfolio3}
                                     className="img-fluid"
                                     alt=""
                                 />
@@ -105,8 +116,8 @@ export function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                             <div className="portfolio-wrap">
-                                <img
-                                    src="assets/img/portfolio/portfolio-4.jpg"
+                                <Image
+                                    src={portfolio4}
                                     className="img-fluid"
                                     alt=""
                                 />
@@ -131,8 +142,8 @@ export function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div className="portfolio-wrap">
-                                <img
-                                    src="assets/img/portfolio/portfolio-5.jpg"
+                                <Image
+                                    src={portfolio5}
                                     className="img-fluid"
                                     alt=""
                                 />
@@ -157,8 +168,8 @@ export function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div className="portfolio-wrap">
-                                <img
-                                    src="assets/img/portfolio/portfolio-6.jpg"
+                                <Image
+                                    src={portfolio6}
                                     className="img-fluid"
                                     alt=""
                                 />
@@ -183,8 +194,8 @@ export function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                             <div className="portfolio-wrap">
-                                <img
-                                    src="assets/img/portfolio/portfolio-7.jpg"
+                                <Image
+                                    src={portfolio7}
                                     className="img-fluid"
                                     alt=""
                                 />
@@ -209,8 +220,8 @@ export function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                             <div className="portfolio-wrap">
-                                <img
-                                    src="assets/img/portfolio/portfolio-8.jpg"
+                                <Image
+                                    src={portfolio8}
                                     className="img-fluid"
                                     alt=""
                                 />
@@ -235,8 +246,8 @@ export function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div className="portfolio-wrap">
-                                <img
-                                    src="assets/img/portfolio/portfolio-9.jpg"
+                                <Image
+                                    src={portfolio9}
                                     className="img-fluid"
                                     alt=""
                                 />

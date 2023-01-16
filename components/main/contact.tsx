@@ -19,7 +19,7 @@ export function Contact() {
                                     <div className="info-box">
                                         <i className="bx bx-map" />
                                         <h3>Our Address</h3>
-                                        <p>A108 Adam Street, New York, NY 535022</p>
+                                        <p>Nkurumah Road, Light Arcade</p>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
@@ -27,9 +27,9 @@ export function Contact() {
                                         <i className="bx bx-envelope" />
                                         <h3>Email Us</h3>
                                         <p>
-                                            info@example.com
+                                            konnectify20@gmail.com
                                             <br />
-                                            contact@example.com
+                                            {/* contact@example.com */}
                                         </p>
                                     </div>
                                 </div>
@@ -38,9 +38,9 @@ export function Contact() {
                                         <i className="bx bx-phone-call" />
                                         <h3>Call Us</h3>
                                         <p>
-                                            +1 5589 55488 55
+                                            0705711887
                                             <br />
-                                            +1 6678 254445 41
+                                            0780530120
                                         </p>
                                     </div>
                                 </div>

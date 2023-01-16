@@ -12,7 +12,7 @@ export function Features() {
             <section id="features" className="features" data-aos="fade-up">
                 <div className="container">
                     <div className="section-title">
-                        <h2>What We Do.</h2>
+                        <h2 className="text-danger">What We Do.</h2>
                         <p>
                             Konnectify Uganda consists of individuals that have high skills, knowledge and experience in the fields of marketing and advertising.
                         </p>
@@ -26,7 +26,7 @@ export function Features() {
                             data-aos="fade-left"
                             data-aos-delay={100}
                         >
-                            <h3>
+                            <h3 className="text-danger">
                                 Traditional marketing
                             </h3>
                             <p className="fst-italic">
@@ -82,7 +82,7 @@ export function Features() {
                             <Image src={feature2} className="img-fluid" alt="" />
                         </div>
                         <div className="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-                            <h3>Print advertising </h3>
+                            <h3 className="text-danger">Print advertising </h3>
                             <p className="fst-italic">
                                 Print advertising is a form of marketing that uses physically printed media to reach customers on a
                                 broad scale. Ads are printed in hard copy across
@@ -104,7 +104,7 @@ export function Features() {
                             <Image src={feature3} className="img-fluid" alt="" />
                         </div>
                         <div className="col-md-7 pt-5" data-aos="fade-left">
-                            <h3>
+                            <h3 className="text-danger">
                                 Digital marketing
                             </h3>
                             <p>
@@ -176,7 +176,7 @@ export function Features() {
                             <Image src={feature4} className="img-fluid" alt="" />
                         </div>
                         <div className="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-                            <h3>
+                            <h3 className="text-danger">
                                 Media Advertising
                             </h3>
                             <p className="fst-italic">

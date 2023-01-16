@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import client1 from "../img/clients/client-1.png"
-import client2 from "../img/clients/client-2.png"
-import client3 from "../img/clients/client-3.png"
-import client4 from "../img/clients/client-4.png"
-import client5 from "../img/clients/client-5.png"
+import client1 from "../img/clients/client-1.jpg"
+import client2 from "../img/clients/client-2.jpg"
+import client3 from "../img/clients/client-3.jpg"
+import client4 from "../img/clients/client-4.jpg"
+import client5 from "../img/clients/client-5.jpg"
 import client6 from "../img/clients/client-6.png"
 
 
