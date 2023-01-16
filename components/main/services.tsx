@@ -26,7 +26,7 @@ export function Service() {
                                     <i className="bi bi-bookmark-check-fill"></i>
                                     </div>
                                     <h4 className="title mt-5">
-                                        <h4 className="text-danger">Konnectify Ug</h4>
+                                        <a href="#" className="nav-link">Events  Planners</a>
                                     </h4>
                                     {/* <p className="description">
                                         Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -80,7 +80,7 @@ export function Service() {
                                         <i className="bi bi-arrow-right-circle" />
                                     </div>
                                     <h4 className="title mt-5">
-                                        <a className="nav-link" href="">More</a>
+                                        <a className="nav-link" href="#">Tours and Travel</a>
                                     </h4>
                                     {/* <p className="description">
                                         At vero eos et accusamus et iusto odio dignissimos ducimus qui
