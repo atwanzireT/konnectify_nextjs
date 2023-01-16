@@ -1,4 +1,6 @@
 import React from "react";
+import { addDoc, collection, Timestamp } from "firebase/firestore/lite";
+import { firestore } from "firebaseConfig";
 
 export function Contact() {
     return (
