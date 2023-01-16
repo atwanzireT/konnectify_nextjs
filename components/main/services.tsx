@@ -44,7 +44,7 @@ export function Service() {
                                         <i className="bi bi-tv"></i>
                                     </div>
                                     <h4 className="title mt-5">
-                                        <a className="nav-link" href="">Marketing</a>
+                                        <a className="nav-link" href="/services/marketing/">Marketing</a>
                                     </h4>
                                     {/* <p className="description">
                                         Voluptatum deleniti atque corrupti quos dolores et quas molestias
@@ -62,7 +62,7 @@ export function Service() {
                                         <i className="bi bi-broadcast"></i>
                                     </div>
                                     <h4 className="title mt-5">
-                                        <a className="nav-link" href="">Advertising</a>
+                                        <a className="nav-link" href="/services/advertising/">Advertising</a>
                                     </h4>
                                     {/* <p className="description">
                                         Duis aute irure dolor in reprehenderit in voluptate velit esse
