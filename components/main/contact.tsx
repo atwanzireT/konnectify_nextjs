@@ -1,8 +1,22 @@
 import React from "react";
 import { addDoc, collection, Timestamp } from "firebase/firestore/lite";
-import { firestore } from "firebaseConfig";
+// import { firestore } from "firebaseConfig";
+import emailjs from '@emailjs/browser'
 
 export function Contact() {
+    const ref = React.useRef();
+    const sendMail = (e) => {
+                
+        e.preventDefault();
+        
+        
+        emailjs.sendForm('service_48g07cw', 'template_g3bfklk', ref.current, 'EPuZoE_q41CfAcX11')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
     return (
         <>
             {/* ======= Contact Section ======= */}
@@ -50,6 +64,7 @@ export function Contact() {
                         </div>
                         <div className="col-lg-6 mt-4 mt-md-0">
                             <form
+                                ref={ref}
                                 action="forms/contact.php"
                                 method="post"
                                 role="form"
@@ -69,13 +84,13 @@ export function Contact() {
                                         <input
                                             type="email"
                                             className="form-control"
-                                            name="email"
+                                            name="sender"
                                             id="email"
                                             placeholder="Your Email"
                                         />
                                     </div>
                                 </div>
-                                <div className="form-group mt-3">
+                                {/* <div className="form-group mt-3">
                                     <input
                                         type="text"
                                         className="form-control"
@@ -83,7 +98,7 @@ export function Contact() {
                                         id="subject"
                                         placeholder="Subject"
                                     />
-                                </div>
+                                </div> */}
                                 <div className="form-group mt-3">
                                     <textarea
                                         className="form-control"
@@ -101,7 +116,7 @@ export function Contact() {
                                     </div>
                                 </div>
                                 <div className="text-center">
-                                    <button type="submit">Send Message</button>
+                                    <button onClick={sendMail} type="submit">Send Message</button>
                                 </div>
                             </form>
                         </div>
