@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export function Service() {
     return (
@@ -44,7 +45,7 @@ export function Service() {
                                         <i className="bi bi-tv"></i>
                                     </div>
                                     <h4 className="title mt-5">
-                                        <a className="nav-link" href="/services/marketing/">Marketing</a>
+                                        <Link className="nav-link" href="/services/marketing/">Marketing</Link>
                                     </h4>
                                     {/* <p className="description">
                                         Voluptatum deleniti atque corrupti quos dolores et quas molestias
@@ -62,7 +63,7 @@ export function Service() {
                                         <i className="bi bi-broadcast"></i>
                                     </div>
                                     <h4 className="title mt-5">
-                                        <a className="nav-link" href="/services/advertising/">Advertising</a>
+                                        <Link className="nav-link" href="/services/advertising/">Advertising</Link>
                                     </h4>
                                     {/* <p className="description">
                                         Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -80,7 +81,7 @@ export function Service() {
                                         <i className="bi bi-arrow-right-circle" />
                                     </div>
                                     <h4 className="title mt-5">
-                                        <a className="nav-link" href="#">Tours and Travel</a>
+                                        <Link className="nav-link" href="#">Tours and Travel</Link>
                                     </h4>
                                     {/* <p className="description">
                                         At vero eos et accusamus et iusto odio dignissimos ducimus qui

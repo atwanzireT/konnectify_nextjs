@@ -1,6 +1,7 @@
 import { Header_About } from "../../components/header"
 import { Footer } from "../../components/footer"
 import Advertising_detail from "../../components/services/advertising_detail"
+import Link from "next/link"
 
 
 export default function Advertising() {
@@ -12,7 +13,7 @@ export default function Advertising() {
                     <div className="container">
                         <ol>
                             <li>
-                                <a className="nav-link text-muted" href="/">Home</a>
+                                <Link className="nav-link text-muted" href="/">Home</Link>
                             </li>
                             <li className="text-danger">Advertising</li>
                         </ol>

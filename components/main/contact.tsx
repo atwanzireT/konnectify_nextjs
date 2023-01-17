@@ -2,21 +2,22 @@ import React from "react";
 import { addDoc, collection, Timestamp } from "firebase/firestore/lite";
 // import { firestore } from "firebaseConfig";
 import emailjs from '@emailjs/browser'
+import Link from "next/link";
 
 export function Contact() {
     const ref = React.useRef();
     const sendMail = (e) => {
-                
+
         e.preventDefault();
-        
-        
+
+
         emailjs.sendForm('service_48g07cw', 'template_g3bfklk', ref.current, 'EPuZoE_q41CfAcX11')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-      };
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
     return (
         <>
             {/* ======= Contact Section ======= */}
@@ -43,7 +44,7 @@ export function Contact() {
                                         <i className="bx bx-envelope" />
                                         <h3>Email Us</h3>
                                         <p>
-                                            konnectify20@gmail.com
+                                            <Link href="mailto:konnectify20@gmail.com">konnectify20@gmail.com</Link>
                                             <br />
                                             {/* contact@example.com */}
                                         </p>
@@ -54,9 +55,9 @@ export function Contact() {
                                         <i className="bx bx-phone-call" />
                                         <h3>Call Us</h3>
                                         <p>
-                                            0705711887
+                                            <Link href="tel:0780530120">0780530120</Link>
                                             <br />
-                                            0780530120
+                                            <Link href="tel:0705711887">0705711887</Link>
                                         </p>
                                     </div>
                                 </div>

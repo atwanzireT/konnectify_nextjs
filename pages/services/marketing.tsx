@@ -1,6 +1,7 @@
 import { Header_About } from "../../components/header"
 import { Footer } from "../../components/footer"
 import Marketing_detail from "../../components/services/marketing_detail"
+import Link from "next/link"
 
 export default function Marketing() {
     return (
@@ -11,7 +12,7 @@ export default function Marketing() {
                     <div className="container">
                         <ol>
                             <li>
-                                <a className="nav-link text-muted" href="/">Home</a>
+                                <Link className="nav-link text-muted" href="/">Home</Link>
                             </li>
                             <li className="text-danger">Marketing</li>
                         </ol>

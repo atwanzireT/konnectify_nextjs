@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export function Footer() {
@@ -11,14 +12,15 @@ export function Footer() {
                             <div className="col-lg-3 col-md-6 footer-contact">
                                 <h3>Konnectify Uganda</h3>
                                 <p>
-                                    A108 Adam Street <br />
-                                    New York, NY 535022
+                                    Nkurumah Road, Light Arcade<br/>
+                                    <strong>Phone:</strong>
+                                    <p>
+                                        <Link href="tel:0705711887">0705711887</Link>
+                                        <br />
+                                        <Link href="tel:0780530120">0780530120</Link>   
+                                    </p>
                                     <br />
-                                    United States <br />
-                                    <br />
-                                    <strong>Phone:</strong> +1 5589 55488 55
-                                    <br />
-                                    <strong>Email:</strong> info@example.com
+                                    <strong>Email:</strong><Link href="mailto:konnectify20@gmail.com">konnectify20@gmail.com</Link>
                                     <br />
                                 </p>
                             </div>
@@ -26,13 +28,13 @@ export function Footer() {
                                 <h4>Useful Links</h4>
                                 <ul>
                                     <li>
-                                        <i className="bx bx-chevron-right" /> <a href="#">Home</a>
+                                        <i className="bx bx-chevron-right" /> <Link href="/">Home</Link>
                                     </li>
                                     <li>
-                                        <i className="bx bx-chevron-right" /> <a href="#">About us</a>
+                                        <i className="bx bx-chevron-right" /> <a href="/about">About us</a>
                                     </li>
                                     <li>
-                                        <i className="bx bx-chevron-right" /> <a href="#">Services</a>
+                                        <i className="bx bx-chevron-right" /> <a href="/#services">Services</a>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
@@ -44,7 +46,7 @@ export function Footer() {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-lg-3 col-md-6 footer-links">
+                            {/* <div className="col-lg-3 col-md-6 footer-links">
                                 <h4>Our Services</h4>
                                 <ul>
                                     <li>
@@ -66,17 +68,16 @@ export function Footer() {
                                         <a href="#">Graphic Design</a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div className="col-lg-4 col-md-6 footer-newsletter">
-                                <h4>Join Our Newsletter</h4>
+                                <h4>Join Konnectify</h4>
                                 <p>
-                                    Tamen quem nulla quae legam multos aute sint culpa legam noster
-                                    magna
+                                    Work with Us
                                 </p>
-                                <form action="" method="post">
+                                {/* <form action="" method="post">
                                     <input type="email" name="email" />
                                     <input type="submit"className="btn btn-danger" defaultValue="Subscribe" />
-                                </form>
+                                </form> */}
                             </div>
                         </div>
                     </div>
@@ -86,7 +87,7 @@ export function Footer() {
                         <div className="copyright">
                             © Copyright{" "}
                             <strong>
-                                <span>Bikin</span>
+                                <span>Konnectify</span>
                             </strong>
                             . All Rights Reserved
                         </div>
@@ -98,7 +99,7 @@ export function Footer() {
                             Designed by <a href="">Fedora</a>
                         </div>
                     </div>
-                    <div className="social-links text-center text-md-right pt-3 pt-md-0">
+                    {/* <div className="social-links text-center text-md-right pt-3 pt-md-0">
                         <a href="#" className="twitter">
                             <i className="bx bxl-twitter" />
                         </a>
@@ -114,7 +115,7 @@ export function Footer() {
                         <a href="#" className="linkedin">
                             <i className="bx bxl-linkedin" />
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </footer>
             {/* End Footer */}
