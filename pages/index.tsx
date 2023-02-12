@@ -19,9 +19,9 @@ export default function Home() {
       </Head>
     <div className="main">
       <Header/>
-      {/* <Hero/>
+      <Hero/>
       <Main/>
-      <Footer/> */}
+      {/* <Footer/> */}
     </div>
     </>
   )
