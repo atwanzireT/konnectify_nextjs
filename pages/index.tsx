@@ -20,7 +20,7 @@ export default function Home() {
     <div className="main">
       <Header/>
       <Hero/>
-      <Main/>
+      {/* <Main/> */}
       {/* <Footer/> */}
     </div>
     </>
