@@ -10,11 +10,11 @@ export function Main(){
     return (
         <div>
             <About/>
-            <Features/>
+            {/* <Features/>
             <Service/>
             <Portfolio/>
             <Partnership/>
-            <Contact/>
+            <Contact/> */}
         </div>
     )
 }
