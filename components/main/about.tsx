@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export function About() {
     return (
@@ -17,9 +18,9 @@ export function About() {
                                     Konnectify Uganda consists of individuals that have high skills, knowledge and experience
                                     in the fields of marketing and advertising.
                                 </p>
-                                <a href="#" className="about-btn nav-link">
+                                <Link href="/about" className="about-btn nav-link">
                                     About us <i className="bi bi-card-text" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div

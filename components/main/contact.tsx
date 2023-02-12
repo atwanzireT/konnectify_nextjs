@@ -6,18 +6,18 @@ import Link from "next/link";
 
 export function Contact() {
     const ref = React.useRef();
-    const sendMail = (e) => {
+    // const sendMail = (e) => {
 
-        e.preventDefault();
+    //     e.preventDefault();
 
 
-        emailjs.sendForm('service_48g07cw', 'template_g3bfklk', ref.current, 'EPuZoE_q41CfAcX11')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    };
+    //     emailjs.sendForm('service_48g07cw', 'template_g3bfklk', ref.current, 'EPuZoE_q41CfAcX11')
+    //         .then((result) => {
+    //             console.log(result.text);
+    //         }, (error) => {
+    //             console.log(error.text);
+    //         });
+    // };
     return (
         <>
             {/* ======= Contact Section ======= */}
@@ -65,7 +65,7 @@ export function Contact() {
                         </div>
                         <div className="col-lg-6 mt-4 mt-md-0">
                             <form
-                                ref={ref}
+                                // ref={ref}
                                 action="forms/contact.php"
                                 method="post"
                                 role="form"
@@ -117,7 +117,9 @@ export function Contact() {
                                     </div>
                                 </div>
                                 <div className="text-center">
-                                    <button onClick={sendMail} type="submit">Send Message</button>
+                                    <button 
+                                    // onClick={sendMail} 
+                                    type="submit">Send Message</button>
                                 </div>
                             </form>
                         </div>

@@ -12,7 +12,7 @@ export function Service() {
                         <p>
                             A marketing and advertising strategy needs to be successful. The plan is
                             a waste of time if it does not aid management in increasing sales, lowering
-                            marketing expenses, gaining market share, or in any other way "winning".
+                            marketing expenses, gaining market share, or in any other way &apos;winning&apos;.
                         </p>
                     </div>
                     <div className="m-auto">
@@ -27,7 +27,7 @@ export function Service() {
                                     <i className="bi bi-bookmark-check-fill"></i>
                                     </div>
                                     <h4 className="title mt-5">
-                                        <a href="#" className="nav-link">Events  Planners</a>
+                                        <Link href="#" className="nav-link">Events  Planners</Link>
                                     </h4>
                                     {/* <p className="description">
                                         Duis aute irure dolor in reprehenderit in voluptate velit esse

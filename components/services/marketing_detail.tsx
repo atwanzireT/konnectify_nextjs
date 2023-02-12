@@ -22,7 +22,7 @@ export default function Marketing_detail() {
                     to work directly with customers to assist them in establishing and achieving their 
                     marketing goals in a cost-effective, strategic and creative way. By offering a wide 
                     range of services, they are able to assess the most appropriate methods and select 
-                    those that are most appropriate for each client's needs, in order to generate marketing 
+                    those that are most appropriate for each client&apos;s needs, in order to generate marketing 
                     that is meaningful and efficient for the best outcomes.
                     </p>
                 </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export function Header() {
@@ -14,34 +15,34 @@ export function Header() {
                     <nav id="navbar" className="navbar">
                         <ul>
                             <li>
-                                <a className="nav-link scrollto" href="#hero">
+                                <Link className="nav-link scrollto" href="#hero">
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="nav-link scrollto" href="#about">
+                                <Link className="nav-link scrollto" href="#about">
                                     About
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="nav-link scrollto" href="#services">
+                                <Link className="nav-link scrollto" href="#services">
                                     Services
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="nav-link scrollto " href="#portfolio">
+                                <Link className="nav-link scrollto " href="#portfolio">
                                     Portfolio
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="nav-link scrollto" href="#contact">
+                                <Link className="nav-link scrollto" href="#contact">
                                     Contact
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="getstarted scrollto" href="#about">
+                                <Link className="getstarted scrollto" href="#about">
                                     Get Started
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                         <i className="bi bi-list mobile-nav-toggle" />
@@ -61,7 +62,7 @@ export function Header_About() {
             <header id="header" className="fixed-top">
                 <div className="container d-flex align-items-center justify-content-between">
                     <h5 className="logo">
-                        <a href="/" className="nav-link">Konnectify Uganda</a>
+                        <Link href="/" className="nav-link">Konnectify Uganda</Link>
                     </h5>
                     {/* Uncomment below if you prefer to use an image logo */}
                     {/* <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}

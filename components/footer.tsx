@@ -14,11 +14,10 @@ export function Footer() {
                                 <p>
                                     Nkurumah Road, Light Arcade<br/>
                                     <strong>Phone:</strong>
-                                    <p>
-                                        <Link href="tel:0705711887">0705711887</Link>
-                                        <br />
-                                        <Link href="tel:0780530120">0780530120</Link>   
-                                    </p>
+                                    <div>
+                                        <Link className="nav-link" href="tel:0705711887">0705711887</Link>
+                                        <Link className="nav-link" href="tel:0780530120">0780530120</Link>   
+                                    </div>
                                     <br />
                                     <strong>Email:</strong><Link href="mailto:konnectify20@gmail.com">konnectify20@gmail.com</Link>
                                     <br />
@@ -28,56 +27,29 @@ export function Footer() {
                                 <h4>Useful Links</h4>
                                 <ul>
                                     <li>
-                                        <i className="bx bx-chevron-right" /> <Link href="/">Home</Link>
+                                        <i className="bx bx-chevron-right"/> <Link className="nav-link" href="/">Home</Link>
                                     </li>
                                     <li>
-                                        <i className="bx bx-chevron-right" /> <a href="/about">About us</a>
+                                        <i className="bx bx-chevron-right" /> <Link className="nav-link" href="/about">About us</Link>
                                     </li>
                                     <li>
-                                        <i className="bx bx-chevron-right" /> <a href="/#services">Services</a>
-                                    </li>
-                                    <li>
-                                        <i className="bx bx-chevron-right" />{" "}
-                                        <a href="#">Terms of service</a>
+                                        <i className="bx bx-chevron-right" /> <Link className="nav-link" href="/#services">Services</Link>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="#">Privacy policy</a>
+                                        <Link href="#" className="nav-link">Terms of service</Link>
+                                    </li>
+                                    <li>
+                                        <i className="bx bx-chevron-right" />{" "}
+                                        <Link className="nav-link" href="#">Privacy policy</Link>
                                     </li>
                                 </ul>
                             </div>
-                            {/* <div className="col-lg-3 col-md-6 footer-links">
-                                <h4>Our Services</h4>
-                                <ul>
-                                    <li>
-                                        <i className="bx bx-chevron-right" /> <a href="#">Web Design</a>
-                                    </li>
-                                    <li>
-                                        <i className="bx bx-chevron-right" />{" "}
-                                        <a href="#">Web Development</a>
-                                    </li>
-                                    <li>
-                                        <i className="bx bx-chevron-right" />{" "}
-                                        <a href="#">Product Management</a>
-                                    </li>
-                                    <li>
-                                        <i className="bx bx-chevron-right" /> <a href="#">Marketing</a>
-                                    </li>
-                                    <li>
-                                        <i className="bx bx-chevron-right" />{" "}
-                                        <a href="#">Graphic Design</a>
-                                    </li>
-                                </ul>
-                            </div> */}
                             <div className="col-lg-4 col-md-6 footer-newsletter">
                                 <h4>Join Konnectify</h4>
                                 <p>
                                     Work with Us
                                 </p>
-                                {/* <form action="" method="post">
-                                    <input type="email" name="email" />
-                                    <input type="submit"className="btn btn-danger" defaultValue="Subscribe" />
-                                </form> */}
                             </div>
                         </div>
                     </div>
@@ -86,9 +58,7 @@ export function Footer() {
                     <div className="me-md-auto text-center text-md-start">
                         <div className="copyright">
                             © Copyright{" "}
-                            <strong>
-                                <span>Konnectify</span>
-                            </strong>
+                            <span className="text-muted">Konnectify</span>
                             . All Rights Reserved
                         </div>
                         <div className="credits">
@@ -99,23 +69,6 @@ export function Footer() {
                             Designed by <a href="">Fedora</a>
                         </div>
                     </div>
-                    {/* <div className="social-links text-center text-md-right pt-3 pt-md-0">
-                        <a href="#" className="twitter">
-                            <i className="bx bxl-twitter" />
-                        </a>
-                        <a href="#" className="facebook">
-                            <i className="bx bxl-facebook" />
-                        </a>
-                        <a href="#" className="instagram">
-                            <i className="bx bxl-instagram" />
-                        </a>
-                        <a href="#" className="google-plus">
-                            <i className="bx bxl-skype" />
-                        </a>
-                        <a href="#" className="linkedin">
-                            <i className="bx bxl-linkedin" />
-                        </a>
-                    </div> */}
                 </div>
             </footer>
             {/* End Footer */}
