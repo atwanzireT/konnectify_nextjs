@@ -13,8 +13,8 @@ export function Main(){
             <Features/>
             <Service/>
             <Portfolio/>
-            {/* <Partnership/> */}
-            {/* <Contact/> */}
+            <Partnership/>
+            <Contact/>
         </div>
     )
 }
