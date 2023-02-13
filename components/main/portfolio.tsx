@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import portfolio1 from "../img/portfolio/portfolio-1.png"
-import portfolio2 from "../img/portfolio/portfolio-2.png"
-import portfolio3 from "../img/portfolio/portfolio-3.png"
-import portfolio4 from "../img/portfolio/portfolio-4.jpg"
-import portfolio5 from "../img/portfolio/portfolio-5.jpg"
-import portfolio6 from "../img/portfolio/portfolio-6.png"
-import portfolio7 from "../img/portfolio/portfolio-7.png"
-import portfolio8 from "../img/portfolio/portfolio-8.jpg"
-import portfolio9 from "../img/portfolio/portfolio-9.png"
+import portfolio1 from "./img/portfolio/portfolio-1.png"
+import portfolio2 from "./img/portfolio/portfolio-2.png"
+import portfolio3 from "./img/portfolio/portfolio-3.png"
+import portfolio4 from "./img/portfolio/portfolio-4.jpg"
+import portfolio5 from "./img/portfolio/portfolio-5.jpg"
+import portfolio6 from "./img/portfolio/portfolio-6.png"
+import portfolio7 from "./img/portfolio/portfolio-7.png"
+import portfolio8 from "./img/portfolio/portfolio-8.jpg"
+import portfolio9 from "./img/portfolio/portfolio-9.png"
 
 
 export function Portfolio() {
