@@ -40,7 +40,7 @@ export function Header() {
                                 </Link>
                             </li>
                             <li>
-                                <Link className="getstarted scrollto" href="#about">
+                                <Link className="getstarted scrollto nav-link" href="#about">
                                     Get Started
                                 </Link>
                             </li>
